@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{autotest-screen}
-  s.version = "0.1.0.0"
+  s.version = "0.1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["David J. Hamilton"]
@@ -24,20 +24,21 @@ Gem::Specification.new do |s|
      "README.rdoc"
   ]
   s.files = [
-    ".gvimrc",
+    ".gitignore",
+     ".gvimrc",
      ".rspec",
      ".rvmrc",
      ".vim/ftplugin/.gitignore",
      ".vim/plugin/.gitignore",
      ".vimproject",
      "Gemfile",
+     "Gemfile.lock",
      "LICENSE",
      "README.rdoc",
      "Rakefile",
      "VERSION.yml",
+     "autotest-screen.gemspec",
      "autotest/discover.rb",
-     "features/project.feature",
-     "features/support/env.rb",
      "lib/autotest-screen.rb",
      "lib/autotest/result.rb",
      "lib/autotest/screen.rb",
