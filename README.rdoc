@@ -1,8 +1,37 @@
-= TODO 1: GEMNAME
+= Autotest [Gnu] Screen
 
-Description goes here.
+* Author:     David J. Hamilton
+* Homepage:   http://github.com/hjdivad/autotest-screen
+* Issues:     http://github.com/hjdivad/autotest-screen/issues
 
-== Note on Patches/Pull Requests
+Conceptually very similar to
+autotest-growl<http://github.com/svoop/autotest-growl>, but notify the user via
+the caption of the parent screen process.
+
+
+= Requirements
+
+* autotest >= 4.2.4
+
+
+= Installation
+
+Install the gem
+  
+  gem install autotest-screen
+
+and add the following to ~/.autotest
+
+  require 'autotest/screen'
+
+
+= Usage
+
+Autotest-screen only works when autotest is invoked from a descendent process of
+gnu screen.  The right pid is searched for via /proc.
+
+
+= Note on Patches/Pull Requests
  
 * Fork the project.
 * Make your feature addition or bug fix.
@@ -11,6 +40,12 @@ Description goes here.
 * Commit, do not mess with rakefile, version, or history.
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
+
+
+= Notes of Thanks
+
+This project is baesd on Sven Schwyn's excellent autotest-growl.
+
 
 == Copyright
 
