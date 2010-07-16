@@ -47,6 +47,21 @@ gnu screen.  The right pid is searched for via /proc.
 This project is baesd on Sven Schwyn's excellent autotest-growl.
 
 
+= Alternatives
+
+* autotest-growl
+
+  http://github.com/svoop/autotest-growl
+
+* autotest_screen
+
+  http://rubyforge.org/projects/autotest-screen
+
+  Yoshiyuki MIKAMI is the author of the autotest_screen gem which has a similar
+  purpose to autotest-screen.  I haven't tried it, but it's much older than
+  autotest-screen: if you have trouble with my gem, you may find more luck with
+  Yoshiyuki's.
+
 == Copyright
 
 Copyright (c) 2010 David J. Hamilton. See LICENSE for details.
